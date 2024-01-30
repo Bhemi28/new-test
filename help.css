@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+header{
+    padding: 0 6vw;
+    background: #000000;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #fff;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header span{
+    font-weight: 300;
+}
+
+#inner-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 0;
+}
+#header-right{
+    display: flex;
+    gap: 12px;
+}
+#header-right #submit{
+    background:transparent;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+#header-right #sign-in{
+    background:#4C5FD5;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+#header-right #sign-in:hover{
+    background: #fff;
+    color: #000000;
+    transition: all ease 0.5s;
+    transition: all 0.5 ease;
+}
+
+main{
+    color: #000000;
+    height: max-content;
+    width: 100%;
+    flex: 1;
+}
+main #hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw 8vw;
+    background: #dadbf1;
+}
+main #hero #title{
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 1.5vw;
+}
+
+main #hero #search{
+    width: 50vw;
+    padding: 1.5vw 2vw;
+    font-size: 1.5rem;
+    border: thin solid #000;
+    border-radius: 4px;
+}
+main form {
+    position: relative;
+}
+
+main #hero #search-btn{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    margin-right: 18px;
+    background: none;
+    border: none;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:8vw 12vw;
+    background: red;
+}
+
+
+#container .categories {
+    display: flex;
+    width: 45%;
+    margin: 3vw 1vw;
+    background-color: blue;
+}
+
+#container .categories .description{
+    display: flex;
+    flex-direction: column;
+}
+#container .categories .description p{
+    margin-top: 0.5vw;
+    font-size: 1.2rem;
+}
+#container .categories .description a{
+    text-decoration: none;
+    color: #4C5FD5;
+    margin-top: 0.5vw;
+    font-size: 1.2rem;
+}
+#container .image img{
+    height: 6vw;
+    margin-right: 1.5vw;
+}
+
+footer{
+    padding: 4vw 6vw;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+}
+footer .footer-section .ssection-title{
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer #company
+{
+    align-self: flex-end;
+}
+footer #company #abstract{
+    margin-bottom: 2vw;
+}
+footer #company a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2vw;
+}
+footer #company h4{
+    font-weight: 500;
+    
+}
